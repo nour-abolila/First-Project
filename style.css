@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: rgb(221, 232, 179);
+    text-decoration: none;
+    
+}
+body{
+    background-image: linear-gradient(rgb(224, 219, 122),rgb(18, 12, 12));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+     url(./ed2ba9ac8127e9d99b50858d11d13d66.jpg );
+     background-repeat: no-repeat;
+     background-size: cover;
+    width: 95%;
+    height: 95%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.logo{
+    font-size: 33px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+ul{
+    width: 68%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right:10px ;
+    
+}
+ul a{
+    border-bottom: 4px solid transparent ;
+    border-top: 4px solid transparent;
+}
+
+ul a:hover{
+    border-bottom-color: black;
+    border-top-color: black; 
+}
+.con{
+    width: 50%;
+    margin-top: 40px;
+    padding: 60px;
+    color:rgb(221, 232, 179) ;
+}
+.con h2{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.con p{
+    letter-spacing: 2px;
+    padding: 16px 0;
+    width: 370px;
+}
+.con button{
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 16px;
+    background-color: rgb(221, 232, 179);
+    border-color: black;
+    border-style: double;
+    color: rgb(167, 171, 34);
+}
+.con button:hover{
+    background-color: transparent;
+    border-color: rgb(100, 122, 55);
+    font-size:25px ;
+}
